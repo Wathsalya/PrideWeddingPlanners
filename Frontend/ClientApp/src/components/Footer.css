@@ -6,7 +6,9 @@
   justify-content: center;
   align-items: center;  
   margin-top: 1rem;
-  
+  position: absolute;
+  right: 0;
+  left:0;
 }
 
 .footer-subscription {
