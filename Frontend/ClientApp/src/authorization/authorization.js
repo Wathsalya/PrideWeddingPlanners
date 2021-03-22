@@ -122,4 +122,35 @@ export const CardDetails = async (CardNo,CardholderName,ExpDate,CVV) => {
 
 
     }
-}
+};
+
+export const ClientLogins = async (UserName, Password) => {
+    
+    const config = {
+        headers: { "Content-Type": "application/json" }
+    };
+
+    const body = JSON.stringify({ UserName, Password });
+
+    try {
+         await axois.post("https://localhost:5001/api/ClientLogins", body, config)
+         .then(res => {
+            console.log(" loging is  working "+res.status)
+             return res.status
+            });
+            alert(" Login Success");
+        
+         
+         
+         
+    } catch (error) {
+        alert(" Check your Username or Password");
+        console.log("catworking ");
+        console.log(error)
+        
+    }
+    
+
+};
+
+

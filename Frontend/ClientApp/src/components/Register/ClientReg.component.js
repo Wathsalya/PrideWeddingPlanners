@@ -37,11 +37,6 @@ const ClientRegister = () => {
         
       <h3  className="testClass" >CLIENT REGISTRATION </h3>
          <h3 className="form_text">Create a new account</h3>
-           
-         <div className="form-group">
-                <label>Email</label>
-                <input type="email" className="form-control" placeholder="Enter email" />
-            </div>
 
         <div className="form-group">
         <label>Client NIC No</label>
