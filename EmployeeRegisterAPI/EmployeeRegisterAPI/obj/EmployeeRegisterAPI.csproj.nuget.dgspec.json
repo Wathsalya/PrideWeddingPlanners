@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\new\\PrideWeddingAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj": {}
+    "D:\\6 th sem ready\\march21clone\\PrideWeddingPlanners\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj": {}
   },
   "projects": {
-    "D:\\new\\PrideWeddingAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj": {
+    "D:\\6 th sem ready\\march21clone\\PrideWeddingPlanners\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\new\\PrideWeddingAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj",
+        "projectUniqueName": "D:\\6 th sem ready\\march21clone\\PrideWeddingPlanners\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj",
         "projectName": "EmployeeRegisterAPI",
-        "projectPath": "D:\\new\\PrideWeddingAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj",
+        "projectPath": "D:\\6 th sem ready\\march21clone\\PrideWeddingPlanners\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\new\\PrideWeddingAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\obj\\",
+        "outputPath": "D:\\6 th sem ready\\march21clone\\PrideWeddingPlanners\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

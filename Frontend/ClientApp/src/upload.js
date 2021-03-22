@@ -1,10 +1,11 @@
 import React from 'react';
-import VendorList from './components/VendorList';
+import EmployeeList from './components/EmployeeList';
+//import VendorList from './components/VendorList';
 
 export default function upload() {
     return (
-        <div className="container"> 
-         <VendorList/>
+        <div > 
+         <EmployeeList/>
             
         </div>
     );

@@ -35,8 +35,9 @@ namespace EmployeeRegisterAPI.Controllers
                 Occupation = x.Occupation,
                 Located_distric=x.Located_distric,
                 Located_province = x.Located_province,
+                TelephoneNumber=x.TelephoneNumber,
+				CompanyWebsite=x.CompanyWebsite,
                 Min_package=x.Min_package,
-                Mid_package = x.Mid_package,
                 Max_package = x.Max_package,
                 ImageName = x.ImageName,
                 ImageSrc = String.Format("{0}://{1}{2}/Images/{3}",Request.Scheme,Request.Host,Request.PathBase,x.ImageName)
@@ -135,7 +136,7 @@ namespace EmployeeRegisterAPI.Controllers
         {
             string imageName = new String(Path.GetFileNameWithoutExtension(imageFile.FileName).Take(10).ToArray()).Replace(' ', '-');
             imageName = imageName + DateTime.Now.ToString("yymmssfff") + Path.GetExtension(imageFile.FileName);
-            var imagePath = Path.Combine(_hostEnvironment.ContentRootPath, "SaloonsImg", imageName);
+            var imagePath = Path.Combine(_hostEnvironment.ContentRootPath, "Images", imageName);
             using (var fileStream = new FileStream(imagePath, FileMode.Create))
             {
                 await imageFile.CopyToAsync(fileStream);
@@ -146,7 +147,7 @@ namespace EmployeeRegisterAPI.Controllers
         [NonAction]
         public void DeleteImage(string imageName)
         {
-            var imagePath = Path.Combine(_hostEnvironment.ContentRootPath, "SaloonsImg", imageName);
+            var imagePath = Path.Combine(_hostEnvironment.ContentRootPath, "Images", imageName);
             if (System.IO.File.Exists(imagePath))
                 System.IO.File.Delete(imagePath);
         }

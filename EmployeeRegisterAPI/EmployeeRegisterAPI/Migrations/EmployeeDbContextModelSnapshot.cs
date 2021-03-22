@@ -61,6 +61,45 @@ namespace EmployeeRegisterAPI.Migrations
                     b.ToTable("Clients");
                 });
 
+            modelBuilder.Entity("EmployeeRegisterAPI.Models.DecorationVendor", b =>
+                {
+                    b.Property<int>("EmployeeID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CompanyWebsite")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("EmployeeName")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("ImageName")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Located_distric")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Located_province")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Max_package")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Min_package")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Occupation")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("TelephoneNumber")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("EmployeeID");
+
+                    b.ToTable("Decorators");
+                });
+
             modelBuilder.Entity("EmployeeRegisterAPI.Models.EmployeeModel", b =>
                 {
                     b.Property<int>("EmployeeID")
@@ -97,6 +136,123 @@ namespace EmployeeRegisterAPI.Migrations
                     b.ToTable("Employees");
                 });
 
+            modelBuilder.Entity("EmployeeRegisterAPI.Models.EntertainmentVendor", b =>
+                {
+                    b.Property<int>("EmployeeID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CompanyWebsite")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("EmployeeName")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("ImageName")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Located_distric")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Located_province")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Max_package")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Min_package")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Occupation")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("TelephoneNumber")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("EmployeeID");
+
+                    b.ToTable("Entertainers");
+                });
+
+            modelBuilder.Entity("EmployeeRegisterAPI.Models.HotelVendor", b =>
+                {
+                    b.Property<int>("EmployeeID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CompanyWebsite")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("EmployeeName")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("ImageName")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Located_distric")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Located_province")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Max_package")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Min_package")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Occupation")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("TelephoneNumber")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("EmployeeID");
+
+                    b.ToTable("Hotels");
+                });
+
+            modelBuilder.Entity("EmployeeRegisterAPI.Models.JwelVendor", b =>
+                {
+                    b.Property<int>("EmployeeID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CompanyWebsite")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("EmployeeName")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("ImageName")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Located_distric")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Located_province")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Max_package")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Min_package")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Occupation")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("TelephoneNumber")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("EmployeeID");
+
+                    b.ToTable("Jwellers");
+                });
+
             modelBuilder.Entity("EmployeeRegisterAPI.Models.Payment", b =>
                 {
                     b.Property<int>("ID")
@@ -121,12 +277,15 @@ namespace EmployeeRegisterAPI.Migrations
                     b.ToTable("Payments");
                 });
 
-            modelBuilder.Entity("EmployeeRegisterAPI.Models.SaloonVendor", b =>
+            modelBuilder.Entity("EmployeeRegisterAPI.Models.PhotographyVendor", b =>
                 {
                     b.Property<int>("EmployeeID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CompanyWebsite")
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("EmployeeName")
                         .HasColumnType("nvarchar(50)");
@@ -143,7 +302,43 @@ namespace EmployeeRegisterAPI.Migrations
                     b.Property<string>("Max_package")
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<string>("Mid_package")
+                    b.Property<string>("Min_package")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Occupation")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("TelephoneNumber")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("EmployeeID");
+
+                    b.ToTable("Photographers");
+                });
+
+            modelBuilder.Entity("EmployeeRegisterAPI.Models.SaloonVendor", b =>
+                {
+                    b.Property<int>("EmployeeID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("CompanyWebsite")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("EmployeeName")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("ImageName")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Located_distric")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Located_province")
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Max_package")
                         .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Min_package")

@@ -31,9 +31,6 @@ namespace EmployeeRegisterAPI.Models
         public string Min_package { get; set; }
 
         [Column(TypeName = "nvarchar(50)")]
-        public string Mid_package { get; set; }
-
-        [Column(TypeName = "nvarchar(50)")]
         public string Max_package { get; set; }
 
 
@@ -43,6 +40,16 @@ namespace EmployeeRegisterAPI.Models
 
         [Column(TypeName = "nvarchar(100)")]
         public string TelephoneNumber { get; set; }
+
+        [Column(TypeName = "nvarchar(100)")]
+        public string CompanyWebsite { get; set; }
+
+
+
+
+
+
+
 
 
 

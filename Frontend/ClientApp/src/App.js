@@ -24,9 +24,33 @@ import Signin from "./components/signin.component";
 import Contactinfo from "./components/contactinfo.component";
 import MerchentSignup from "./components/merchentregister.component";
 import MerchentAdd from "./components/merchentadd.component";
-import Upload from "./components/upload.component";
-import Uploading from "./upload";
+import Upload from "./upload";
+import Saloon_upload from "./components/Saloon_upload";
+import AddBoard_Saloon from "./components/AddBoard_Saloon";
+
+import Hotel_upload from "./components/Hotel_upload";
+import AddBoard_Hotel from "./components/AddBoard_Hotel";
+
+import Decoration_upload from "./components/Decoration_upload";
+import AddBoard_Decoration from "./components/AddBoard_Decoration";
+
+import Photographer_upload from "./components/Photographer_upload";
+import AddBoard_Photography from "./components/AddBoard_Photography";
+
+import Jweller_upload from "./components/Jweller_upload";
+import AddBoard_Jweller from "./components/AddBoard_Jweller";
+
+import Entertainer_upload from "./components/Entertainer_upload";
+import AddBoard_Entertainer from "./components/AddBoard_Entertainer";
+
+
+
 import Newcarousel from "./components/newcar";
+
+
+
+
+
 import ClientRegister from "./components/Register/ClientReg.component";
 import VendorRegister from "./components/Register/VendorReg.component";
 import Payment from "./components/payment.component";
@@ -69,9 +93,22 @@ function App() {
             <Route path="/client-selection" component={Client_Selection} />
             <Route path="/sign-in" component={Signin}/>
             <Route path="/contact-info" component={Contactinfo}/>
-            <Route path="/upload" component={Upload}/>
-            <Route path="/newcar" component={Newcarousel}/>
-            <Route path="/uploading" component={Uploading}/>
+            <Route path="/aboutus" component={Newcarousel}/>
+			
+			 <Route path="/upload" component={Upload}/>
+            <Route path="/saloon_upload" component={Saloon_upload}/>
+            <Route path="/saloons" component={AddBoard_Saloon}/>
+		      	<Route path="/hotel_upload" component={Hotel_upload}/>
+            <Route path="/hotels" component={AddBoard_Hotel}/>
+		      	<Route path="/photographer_upload" component={Photographer_upload}/>
+            <Route path="/Photographers" component={AddBoard_Photography}/>
+		      	<Route path="/decoration_upload" component={Decoration_upload}/>
+            <Route path="/decorators" component={AddBoard_Decoration}/>
+		      	<Route path="/jweller_upload" component={Jweller_upload}/>
+            <Route path="/jwellers" component={AddBoard_Jweller}/>
+		      	<Route path="/entertainer_upload" component={Entertainer_upload}/>
+            <Route path="/entertainers" component={AddBoard_Entertainer}/>
+			
             <Route path="/pay" component={Payment}/>
             <Route path="/forget-pw" component={Forget}/>
             <Route path="/news" component={News}/>

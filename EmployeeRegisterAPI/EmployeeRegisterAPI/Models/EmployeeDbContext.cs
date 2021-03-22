@@ -15,6 +15,11 @@ namespace EmployeeRegisterAPI.Models
 
         public DbSet<EmployeeModel> Employees { get; set; }
         public DbSet<SaloonVendor> Saloons { get; set; }
+        public DbSet<HotelVendor> Hotels { get; set; }
+        public DbSet<PhotographyVendor> Photographers { get; set; }
+        public DbSet<DecorationVendor> Decorators { get; set; }
+        public DbSet<JwelVendor> Jwellers { get; set; }
+        public DbSet<EntertainmentVendor> Entertainers { get; set; }
 
         public DbSet<ClientRegistration> Clients { get; set; }
 

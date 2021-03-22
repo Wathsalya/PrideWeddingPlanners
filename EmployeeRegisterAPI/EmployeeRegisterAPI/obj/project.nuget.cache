@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WrvF+GoDqdU5f25WLvifYpjCgen5Ghf8nLEVfJPn7XOUnHOL2TejzVXL4P2+4TqLi5YOV429iRMIpT4boo6RYA==",
+  "dgSpecHash": "pE0U4e0vGajGgwFn3h/MtrG8ETTsvoVxmn2ABAyUaiijoWsqRJ8MOtX+pBlLPi3/muwQb+8K2LH1M26qUKvuZg==",
   "success": true,
-  "projectFilePath": "D:\\new\\PrideWeddingAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj",
+  "projectFilePath": "D:\\6 th sem ready\\march21clone\\PrideWeddingPlanners\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.8\\microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
