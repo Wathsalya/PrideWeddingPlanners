@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dvice\\Desktop\\new\\PrideWeddingPlanners\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj": {}
+    "C:\\Users\\Dvice\\Desktop\\ui\\PrideWeddingPlanners\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dvice\\Desktop\\new\\PrideWeddingPlanners\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj": {
+    "C:\\Users\\Dvice\\Desktop\\ui\\PrideWeddingPlanners\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dvice\\Desktop\\new\\PrideWeddingPlanners\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Dvice\\Desktop\\ui\\PrideWeddingPlanners\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj",
         "projectName": "EmployeeRegisterAPI",
-        "projectPath": "C:\\Users\\Dvice\\Desktop\\new\\PrideWeddingPlanners\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj",
+        "projectPath": "C:\\Users\\Dvice\\Desktop\\ui\\PrideWeddingPlanners\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\EmployeeRegisterAPI.csproj",
         "packagesPath": "C:\\Users\\Dvice\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dvice\\Desktop\\new\\PrideWeddingPlanners\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\obj\\",
+        "outputPath": "C:\\Users\\Dvice\\Desktop\\ui\\PrideWeddingPlanners\\EmployeeRegisterAPI\\EmployeeRegisterAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dvice\\AppData\\Roaming\\NuGet\\NuGet.Config",
